@@ -1,9 +1,3 @@
-# cli-hints
-### Useful commands for working in the cli:
-
-
-
-
 `Alt + Shift + #` - comment line
 
 ### Moving the cursor – fast
@@ -29,11 +23,27 @@
 ### Deleting parts of the line
 `CTRL + k` - Cut the line after the cursor to the clipboard \
 `CTRL + u` - Cut/delete the line before the cursor to the clipboard \
-The line deleted by `Ctrl + u` or `Ctrl + k` is recallable with `Ctrl + y`.
+The line deleted by `CTRL + u` or `CTRL + k` is recallable with `CTRL + y`.
 
 ### Deleting single characters
 `CTRL+d` - Delete character under the cursor (same as Delete key) \
 `CTRL+h` - Delete character before the cursor (same as Backspace key)
+
+### Paste, Undo, revert, and more
+`CTRL + l` - Clear the screen (similar to the 'clear' command) \
+`CTRL + y` - Paste the last thing to be cut (yank) \
+`CTRL + _` - Undo \
+`ALT + r` / `ESC + r` - Revert the changes and replace with the line as it was in History \
+`ALT + Shift + #` - comment line and Enter
+
+### Swap 'em!
+`CTRL + t` - Swap the last two characters before the cursor \
+`ALT + t` / `ESC + t` - Swap current word with previous
+
+### Convert to UPPER, lower, or Sentence case
+`ALT + u` / `ESC + u` - Capitalise characters from the cursor to the end of the current word and move to the end of the word. \
+`ALT + l` / `ESC + l` - Lower the case of characters from the cursor to the end of the current word and move to the end of the word. \
+`ALT + c` / `ESC + c` - Capitalize the character under the cursor position and move to the end of the word.
 
 <img src="https://mehmandarov.com/assets/images/posts-images/2018-12-30-bash_navigation.png" height="700" />
 
