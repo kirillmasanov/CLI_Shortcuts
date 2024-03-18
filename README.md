@@ -24,8 +24,8 @@
 The line deleted by `CTRL + u` or `CTRL + k` is recallable with `CTRL + y`.
 
 ### Deleting single characters
-`CTRL+d` - Delete character under the cursor (same as Delete key) \
-`CTRL+h` - Delete character before the cursor (same as Backspace key)
+`CTRL + d` - Delete character under the cursor (same as Delete key) \
+`CTRL + h` - Delete character before the cursor (same as Backspace key)
 
 ### Paste, Undo, revert, and more
 `CTRL + l` - Clear the screen (similar to the 'clear' command) \
