@@ -1,5 +1,3 @@
-`Alt + Shift + #` - comment line
-
 ### Moving the cursor – fast
 `Ctrl + e` - move cursor to the end of the line \
 `Ctrl + a` - move cursor to the begining of the line \
